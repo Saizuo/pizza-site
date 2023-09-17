@@ -107,6 +107,7 @@ function init() {
     var mapElement = document.getElementById('map');
 
     // Create the Google Map using out element and options defined above
+    // Tell me now
     var map = new google.maps.Map(mapElement, mapOptions);
     
     var addresses = ['New York'];
